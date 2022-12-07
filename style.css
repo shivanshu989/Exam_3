@@ -1,0 +1,218 @@
+#full {
+    width: 100%;
+    height: 100vh;
+}
+
+#top {
+    width: 100%;
+    height: 10%;
+    background-color: grey;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+#buttons {
+    width: 25%;
+    height: 60%;
+    background-color: rgba(0, 0, 0, 0.533);
+    border-radius: 2px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#two {
+    background-color: white;
+    width: 15%;
+    height: 60%;
+    /* border: 1px black solid; */
+    display: flex;
+    /* border-radius: 3px; */
+
+}
+
+#matter {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    height: 100%;
+    align-items: center;
+}
+
+.boxes {
+    width: 75%;
+    height: 56%;
+    background-color: antiquewhite;
+    /* display: flex; */
+    border-radius: 3px;
+}
+
+#plus {
+    width: 50%;
+    height: 100%;
+    background-color: rgb(65, 65, 65);
+    color: white;
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#dust {
+    background-color: rgba(128, 128, 128, 0.569);
+    width: 50%;
+    height: 100%;
+    cursor: pointer;
+    color: white;
+    font-size: xx-large;
+}
+
+#box1 {
+    background-color: pink;
+}
+
+#box2 {
+    background-color: skyblue;
+}
+
+#box3 {
+    background-color: green;
+}
+
+#box4 {
+    background-color: black;
+}
+
+.hover {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+#plus:hover {
+    background-color: rgb(95, 94, 94);
+}
+
+#dust:hover {
+    background-color: white;
+}
+
+.hover:hover {
+    background-color: rgb(255, 254, 254);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#second {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#bigbox {
+    position: absolute;
+    top: 120px;
+    right: 200px;
+    z-index: -1;
+    border: 2px black solid;
+    height: 40%;
+    width: 45%;
+    display: flex;
+
+}
+
+#part1 {
+    width: 80%;
+    height: 100%;
+    background-color: rgb(182, 181, 181);
+    display: flex;
+    justify-content: center;
+    /* color: white; */
+    align-items: center;
+}
+
+#part2 {
+    width: 20%;
+    height: 100%;
+    background-color: rgb(44, 42, 42);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#white {
+    background-color: white;
+    width: 50%;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-right: 2px black solid;
+}
+
+input {
+    padding: 10;
+    width: 80%;
+    height: 80%;
+    border: 0;
+}
+
+#box11 {
+    background-color: pink;
+    width: 80%;
+    height: 20%;
+    cursor: pointer;
+}
+
+#box22 {
+    background-color: skyblue;
+    width: 80%;
+    height: 20%;
+    cursor: pointer;
+
+}
+
+#box33 {
+    background-color: green;
+    width: 80%;
+    height: 20%;
+    cursor: pointer;
+
+}
+
+#box44 {
+    background-color: black;
+    width: 80%;
+    height: 20%;
+    cursor: pointer;
+
+}
+
+#boxx {
+    width: 200px;
+    height: 100px;
+    margin: 50px 50px 50px 50px;
+    background-color: white;
+    border: 2px black solid;
+    display: flex;
+    /* justify-content: center; */
+    text-align: center;
+    flex-direction: column;
+}
+
+#topp {
+    width: 100%;
+    height: 30px;
+    background-color: green;
+}
